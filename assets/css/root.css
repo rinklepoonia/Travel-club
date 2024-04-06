@@ -11,13 +11,16 @@
     --fs-4xl: 30px;
     /* =====color===== */
     --clr-creamyWhite: #FAFAFA;
+    --clr-black:#000000;
     --clr-white: #FFFFFF;
     --clr-navBlue: #1F204B;
     --clr-borderGrey: #FDFDFD66;
     --clr-blue: #1B173B;
     --clr-lineBlue: #1219D2;
     --clrbodyBlue: #140D1B;
-    --clr-greyBlure:#01010140;
+    --clr-greyBlure: #01010140;
+    --clr-sliderBoxBlue: #151144;
+    --clr-sliderBTnBlue: #1219D2;
 }
 
 .bodyBlue_colr {
