@@ -97,13 +97,17 @@
     line-height: 37px;
 }
 
+.lh-40 {
+    line-height: 40px;
+}
+
 .lh-42 {
     line-height: 42px;
 }
 
-.lh-56 {
+/* .lh-sm-56 {
     line-height: 56px;
-}
+} */
 
 /* 
 .lh-75 {
@@ -368,6 +372,44 @@
     display: none;
 }
 
+/* ==================token-section============ */
+.token_bg_img {
+    background-image: url(../images/png/token-bg-img.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.gap_28 {
+    gap: 28px;
+}
+
+.gap_36 {
+    gap: 36px;
+}
+
+
+.pt_30 {
+    padding-top: 30px;
+}
+
+/* .pt_40 {
+    padding-top: 40px;
+} */
+.pt_20 {
+    padding-top: 20px;
+}
+
+.pt_50 {
+    padding-top: 50px;
+}
+
+.travel_club_box {
+    background: rgba(18, 25, 210, 0.2);
+    padding: 29px 20px 31px 20px;
+    max-width: 582px;
+    min-height: 480px;
+}
+
 @media (max-width:991.99px) {
     .overFlowHidden {
         overflow: hidden;
@@ -410,11 +452,19 @@
     .w_100 {
         width: 100%;
     }
+
+    .max_w_406 {
+        max-width: 406px;
+    }
 }
 
 @media (min-width:576px) {
     .lh-sm-50 {
         line-height: 50px;
+    }
+
+    .lh-sm-56 {
+        line-height: 56px;
     }
 
     .blue_line:after {
@@ -434,6 +484,35 @@
 
     .pb_sm_35 {
         padding-bottom: 35px;
+    }
+
+    .pt_sm_43 {
+        padding-top: 43px;
+    }
+
+    .pt_sm_40 {
+        padding-top: 40px;
+    }
+
+    .gap_sm_143 {
+        gap: 143px;
+    }
+
+    .gap_100 {
+        gap: 100px;
+    }
+
+    .gap_90 {
+        gap: 90px;
+    }
+
+    .gap_30 {
+        gap: 30px;
+    }
+
+    .travel_club_box {
+        background: rgba(18, 25, 210, 0.2);
+        padding: 29px 50px 31px 50px;
     }
 
 
@@ -499,12 +578,20 @@
 }
 
 @media (min-width:992px) {
+    .w100 {
+        width: 100%;
+    }
+
     .gap_lg_32 {
         gap: 32px;
     }
 
     .lh-lg-75 {
         line-height: 75px;
+    }
+
+    .pt_lg_37 {
+        padding-top: 37px;
     }
 
     .py_lg_180_160 {
