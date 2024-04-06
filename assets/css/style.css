@@ -18,6 +18,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* .ff-sans{
+    font-family: ;
+} */
+
 /* =================font-weight============ */
 .fw-small {
     font-weight: 300 !important;
@@ -208,6 +212,20 @@
     border-radius: 8px;
 }
 
+/* ==============about-us============ */
+
+
+.max_w_878 {
+    max-width: 878px;
+}
+
+.opacity_80 {
+    opacity: 80%;
+}
+
+
+
+
 
 @media (max-width:991.99px) {
     .overFlowHidden {
@@ -247,6 +265,10 @@
     .flex_wrap {
         flex-wrap: wrap;
     }
+
+    .w_100 {
+        width: 100%;
+    }
 }
 
 @media (min-width:576px) {
@@ -259,6 +281,10 @@
         width: 271px;
         left: 24%;
     }
+
+    .mb_sm_20 {
+        margin-bottom: 20px;
+    }
 }
 
 @media (min-width:768px) {
@@ -266,6 +292,10 @@
         width: 359px;
         height: 14px;
         bottom: 6px;
+    }
+
+    .mb_md_40 {
+        margin-bottom: 40px;
     }
 }
 
@@ -295,5 +325,13 @@
 
     .goingTo_box {
         max-width: 452px;
+    }
+
+    .pt_lg_160 {
+        padding-top: 160px;
+    }
+
+    .max_w_509 {
+        max-width: 509px;
     }
 }
