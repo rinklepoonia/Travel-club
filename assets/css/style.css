@@ -472,6 +472,24 @@
     background-position: center;
 }
 
+.token_top_grident {
+    background: linear-gradient(180deg, #140D1B 24.34%, rgba(20, 15, 34, 0) 93.95%);
+    width: 1440px;
+    height: 215px;
+    width: 100%;
+    z-index: -1;
+}
+
+.token_bottom_grident {
+    background: linear-gradient(180deg, #140D1B 24.34%, rgba(20, 15, 34, 0) 93.95%);
+    width: 1440px;
+    height: 189px;
+    width: 100%;
+    bottom: -122px;
+    z-index: -1;
+    filter: blur(31px);
+}
+
 .gap_28 {
     gap: 28px;
 }
