@@ -303,15 +303,18 @@
 .pb_0 {
     padding-bottom: 0;
 }
-.grid_left_ellipPosition{
+
+.grid_left_ellipPosition {
     top: 0;
     left: 0;
 }
-.left_star_position{
+
+.left_star_position {
     top: 81px;
     left: 0;
 }
-.right_star_position{
+
+.right_star_position {
     bottom: 15px;
     right: 0;
 }
@@ -367,10 +370,12 @@
 .hover_grid_content:hover .gride_content_property {
     opacity: 1;
 }
-.hover_grid_content:hover{
+
+.hover_grid_content:hover {
     scale: 0.9;
 }
-.hover_grid_content{
+
+.hover_grid_content {
     transition: 0.2s linear;
 }
 
@@ -380,6 +385,20 @@
 }
 
 /* ====================slider=============== */
+.pb_110 {
+    padding-bottom: 110px;
+}
+
+.slider_left_ellipPosition {
+    top: -48%;
+    left: 0;
+}
+
+.slider_right_ellipPosition {
+    right: 0;
+    top: -39%
+}
+
 .text_lineThrough {
     text-decoration: line-through !important;
 }
@@ -410,7 +429,7 @@
     gap: 20px;
 }
 
-.slick-dots li {
+#member_deal .slick-dots li {
     /* width: 30px; */
 }
 
