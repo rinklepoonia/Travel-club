@@ -429,25 +429,33 @@
     gap: 20px;
 }
 
-#member_deal .slick-dots li {
-    /* width: 30px; */
+.slick-dots li.slick-active {
+    background: var(--clr-sliderBTnBlue);
+    width: 60px;
 }
 
 .slick-dots li button:before {
-    color: var(--clr-creamyWhite);
-    /* background: var(--clr-creamyWhite); */
-    font-size: 19px;
-    width: 28px;
-    height: 12px;
+    content: unset;
 }
 
-.slick-dots li.slick-active button:before {
-    font-size: 19px;
-    background: var(--clr-sliderBTnBlue);
-    color: var(--clr-sliderBTnBlue);
+.slick-dots li {
+    content: unset;
+    width: 28px;
     height: 12px;
-    width: 60px;
+    background: var(--clr-white);
+    margin: 7px;
+    border-radius: 21px;
+    transition: all 300ms linear;
 }
+
+.slick-dots {
+    bottom: -70px;
+}
+
+/* .slick-slide div {
+    display: flex;
+    justify-content: center;
+} */
 
 .slick-next:before {
     display: none;
