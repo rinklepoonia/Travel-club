@@ -12,6 +12,7 @@
     /* =====color===== */
     --clr-creamyWhite: #FAFAFA;
     --clr-black: #000000;
+    --clr-footerBlack:#010101;
     --clr-white: #FFFFFF;
     --clr-navBlue: #1F204B;
     --clr-borderGrey: #FDFDFD66;
@@ -24,6 +25,9 @@
     --clr--lightWhite: #FCFFFE;
     --clr-white80: #CDCFD8;
     --clr-accBorder:#E9EBED;
+}
+.bg_footer{
+    background: var(--clr-footerBlack);
 }
 
 .color-white80 {
