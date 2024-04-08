@@ -30,6 +30,9 @@
 .opacity_50 {
     opacity: 50%;
 }
+.opacity_80 {
+    opacity: 80%;
+}
 
 .opacity_90 {
     opacity: 90%;
@@ -279,8 +282,14 @@
     max-width: 878px;
 }
 
-.opacity_80 {
-    opacity: 80%;
+.aboutUs_ellip_position {
+    top: -78%;
+    left: 0;
+    z-index: 1;
+}
+.aboutUs_ellip_position_right{
+    top: 24%;
+    right: 0;
 }
 
 /* ============Popular Destinations(grid)============== */
