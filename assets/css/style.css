@@ -480,9 +480,7 @@
     transition: all 300ms linear;
 }
 
-.slick-dots {
-    bottom: -70px;
-}
+
 
 /* .slick-slide div {
     display: flex;
@@ -530,14 +528,10 @@
     gap: 36px;
 }
 
-
 .pt_30 {
     padding-top: 30px;
 }
 
-/* .pt_40 {
-    padding-top: 40px;
-} */
 .pt_20 {
     padding-top: 20px;
 }
@@ -590,16 +584,21 @@
     padding-bottom: 80px;
 }
 
-
 .pb_20 {
     padding-bottom: 20px;
+}
+
+.pb_85 {
+    padding-bottom: 85px;
+}
+.pb_30{
+    padding-bottom: 30px;
 }
 
 .team_box {
     max-width: 367px;
     transition: all 0.3s linear;
     border: 1px solid transparent;
-    /* margin-bottom: 100px; */
 }
 
 .team_box:hover {
@@ -642,6 +641,9 @@
     display: flex;
     justify-content: center;
 }
+.slick-next{
+    display: none;
+}
 
 /* ====================FAQ================ */
 .max_w_561 {
@@ -660,15 +662,11 @@
 
 .accordion-button:not(.collapsed)::after {
     background-image: url(../images/svg/bottom-arrow.svg);
-    /* transform: var(--bs-accordion-btn-icon-transform); */
-    /* transition: all 300ms linear; */
 }
 
 .accordion-button::after {
     background-image: url(../images/svg/bottom-arrow.svg);
     background-repeat: no-repeat;
-    /* transition: var(--bs-accordion-btn-icon-transition); */
-    /* transition: all 300ms linear; */
 }
 
 .accordion-button {
@@ -761,6 +759,10 @@
     .max_w_406 {
         max-width: 406px;
     }
+
+    .slick-dots {
+        bottom: -4px;
+    }
 }
 
 @media (max-width:576px) {
@@ -778,6 +780,10 @@
 
     .justify_content_between {
         justify-content: space-between;
+    }
+
+    .slick-dots {
+        bottom: -60px;
     }
 }
 
@@ -817,6 +823,9 @@
     .pb_sm_35 {
         padding-bottom: 35px;
     }
+    .pb_sm_60{
+        padding-bottom: 60px;
+    }
 
     .pt_sm_43 {
         padding-top: 43px;
@@ -855,6 +864,10 @@
         padding: 29px 50px 31px 50px;
     }
 
+    .slick-dots {
+        bottom: -4px;
+    }
+
 
 }
 
@@ -874,6 +887,13 @@
         padding-top: 80px;
         padding-bottom: 80px;
     }
+
+    .pb_md_140 {
+        padding-bottom: 140px;
+    }
+        .pb_md_90{
+            padding-bottom: 90px;
+        }
 
     .mb_md_40 {
         margin-bottom: 40px;
@@ -915,6 +935,10 @@
         grid-row: 2/4;
         grid-column: 3/4;
     }
+
+    .slick-dots {
+        bottom: -70px;
+    }
 }
 
 @media (min-width:992px) {
@@ -946,6 +970,13 @@
     .pb_lg_160 {
         padding-bottom: 160px;
     }
+
+    .pb_lg_240 {
+        padding-bottom: 240px;
+    }
+        .pb_lg_130 {
+            padding-bottom: 130px;
+        }
 
     .py_lg_54_160 {
         padding-top: 54px;
