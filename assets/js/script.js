@@ -96,3 +96,4 @@ const Preload = document.getElementById("preload")
 setTimeout(() => {
     Preload.classList.add("d-none")
 }, "4000");
+

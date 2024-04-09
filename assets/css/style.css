@@ -310,7 +310,61 @@ input::placeholder {
     color: var(--clr-white);
 }
 
+.color-green {
+    color: red;
+}
+
+.drop_links {
+    opacity: 0;
+}
+
+.dropdown:hover .drop_links {
+    opacity: 1;
+}
+
+.drop_option:hover {
+    background: var(--clr-white);
+    color: var(--clr-black);
+}
+
+.dropdown_modification {
+    background: var(--clr-navBlue);
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#Flight {
+    display: none;
+}
+
+.checkBox_label::before {
+    content: "";
+    border: 0.6px solid var(--clr-white);
+    border-radius: 1px;
+    padding: 9px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#Flight:checked+.checkBox_label::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 7px;
+    width: 7px;
+    height: 15px;
+    border: solid var(--clr-white);
+    border-width: 0px 2px 2px 0px;
+    transform: rotate(50deg);
+}
+
 /* ==============about-us============ */
+.max_w_402 {
+    max-width: 402px;
+}
+
 .max_w_878 {
     max-width: 878px;
 }
