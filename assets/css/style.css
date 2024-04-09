@@ -31,6 +31,10 @@
     opacity: 50%;
 }
 
+.opacity_70 {
+    opacity: 70%;
+}
+
 .opacity_90 {
     opacity: 90%;
 }
@@ -191,6 +195,25 @@
 .nav_link:hover::after {
     width: 100%;
 }
+.cursor-poniter{
+    cursor: pointer;
+}
+
+.travel_box_links:after {
+    content: "";
+    width: 0;
+    height: 1px;
+    background: var(--clr-creamyWhite);
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transition: all 200ms linear;
+    transform: translateX(-50%);
+}
+
+.travel_box_links:hover::after {
+    width: 100%;
+}
 
 .blue_line:after {
     display: none;
@@ -284,6 +307,7 @@
     width: 100%;
     border: 1px solid var(--clr-borderGrey);
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .hero_starsIcon_position {
@@ -603,6 +627,13 @@ input::placeholder {
 
 .pb_30 {
     padding-bottom: 30px;
+}
+
+.outline_none {
+    outline: none;
+    border: transparent;
+    color: white;
+    text-align: left;
 }
 
 .team_box {
