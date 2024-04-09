@@ -25,6 +25,7 @@
     --clr--lightWhite: #FCFFFE;
     --clr-white80: #CDCFD8;
     --clr-accBorder:#E9EBED;
+    --clr-shadowBlue:#1219D226;
 }
 .bg_footer{
     background: var(--clr-footerBlack);
