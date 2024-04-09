@@ -113,31 +113,6 @@
     line-height: 42px;
 }
 
-/* .lh-sm-56 {
-    line-height: 56px;
-} */
-
-/* 
-.lh-75 {
-    line-height: 75px;
-} */
-
-/* .a::-webkit-scrollbar {
-    width: 5px;
-    height: 2px;
-}
-
-.a::-webkit-scrollbar-track {
-    background: grey;
-}
-
-.a::-webkit-scrollbar-thumb {
-    background: blue;
-}
-
-.a::-webkit-scrollbar-thumb:hover {
-    background: green;
-} */
 .cross span:nth-child(1) {
     transform: rotate(49deg) translateY(0);
     transition: all 300ms linear;
