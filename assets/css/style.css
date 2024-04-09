@@ -170,7 +170,8 @@
 .nav_link:hover::after {
     width: 100%;
 }
-.cursor-poniter{
+
+.cursor-poniter {
     cursor: pointer;
 }
 
@@ -1012,6 +1013,10 @@ input::placeholder {
 }
 
 @media (min-width:992px) {
+    .justify_content_center {
+        justify-content: center;
+    }
+
     .w100 {
         width: 100%;
     }
