@@ -90,7 +90,8 @@
                                     d="M12 1.5918C9.81276 1.59438 7.71584 2.4644 6.16923 4.01102C4.62261 5.55763 3.75259 7.65455 3.75001 9.8418C3.74739 11.6292 4.33124 13.3681 5.41201 14.7918C5.41201 14.7918 5.63701 15.088 5.67376 15.1308L12 22.5918L18.3293 15.127C18.3623 15.0873 18.588 14.7918 18.588 14.7918L18.5888 14.7895C19.669 13.3665 20.2526 11.6284 20.25 9.8418C20.2474 7.65455 19.3774 5.55763 17.8308 4.01102C16.2842 2.4644 14.1873 1.59438 12 1.5918ZM12 12.8418C11.4067 12.8418 10.8266 12.6658 10.3333 12.3362C9.83995 12.0066 9.45543 11.538 9.22837 10.9898C9.00131 10.4417 8.9419 9.83847 9.05765 9.25653C9.17341 8.67458 9.45913 8.14003 9.87869 7.72048C10.2982 7.30092 10.8328 7.0152 11.4147 6.89944C11.9967 6.78369 12.5999 6.8431 13.1481 7.07016C13.6962 7.29722 14.1648 7.68174 14.4944 8.17509C14.8241 8.66843 15 9.24845 15 9.8418C14.999 10.6371 14.6826 11.3996 14.1202 11.962C13.5578 12.5244 12.7954 12.8408 12 12.8418Z"
                                     fill="#FAFAFA" />
                             </svg>
-                            <p class="ff-pop fw-small text16-ss lh-24 color-white mb-0">Going to</p>
+                            <input type="text" placeholder="Going to"
+                                class="ff-pop fw-small text16-ss lh-24 color-white mb-0 bg-transparent outline_none go_box">
                         </div>
                         <div class="d-flex align-items-center gap_12 checkkIn_box">
                             <div class="d-flex justify-content-between gap_60 w-100">
@@ -180,8 +181,8 @@
         </div>
     </header>
     <!-- =============about-us============ -->
-    <section class="position-relative">
-        <div class="position-absolute aboutUs_ellip_position"><img class="w-100"
+    <section id="about" class="position-relative">
+        <div class="position-absolute aboutUs_ellip_position d-sm-block d-none"><img class="w-100"
                 src="./assets/images/svg/about-us-ellip.svg" alt="about-us-ellip"></div>
         <div class="position-absolute aboutUs_ellip_position_right"><img class="w-100"
                 src="./assets/images/png/aboutUs-ellip-right.png" alt="aboutUs-ellip-right"></div>
@@ -201,7 +202,8 @@
                         fairly common in the web3 and blockchain space. A DAO can be described as a transparent
                         governing body, where each
                         member typically shares a common goal, which is the best interest of the platform.</p>
-                    <button class="ff-pop fw-semibold text16-ss lh-24 color-white btn_styling">Get rewards</button>
+                    <div class=" "><button class="ff-pop fw-semibold text16-ss lh-24 color-white  btnn btn_styling">Get
+                            rewards</button></div>
                 </div>
                 <div class="col-lg-6">
                     <img class="w-100 h-100 object-fit-cover max_w_878" src="./assets/images/png/about-us-img.png"
@@ -285,8 +287,8 @@
             </div>
         </div>
     </section>
-    <!-- ==============slider============= -->
-    <section class="pb_110 position-relative">
+    <!-- ==============slider-member-deal============= -->
+    <section class="pb_110 position-relative overflow -x-hidden">
         <div class="position-absolute slider_left_ellipPosition"><img class="w-100"
                 src="./assets/images/png/grid-left-ellip.png" alt="grid-left-ellip"></div>
         <div class="position-absolute slider_right_ellipPosition"><img class="w-100"
@@ -295,7 +297,7 @@
             <h2 class="ff-sans fw-normal text48-3xl lh-56 color-white text-center pb-lg-5 pb-md-4 pb-sm-3 pb-2 mb-0">
                 Member Deals</h2>
             <div class="slider_responsiv">
-                <div class="slider_box">
+                <div class="slider_box zoom_in">
                     <img class="border_radius w-100" src="./assets/images/png/slider1-img.png" alt="slider1-img.png">
                     <div class="slider_box_modification">
                         <div class="d-flex align-items-center justify-content-between mb-3">
@@ -319,7 +321,7 @@
                             mauris hac dignissi amet facilisi.</p>
                     </div>
                 </div>
-                <div class="slider_box">
+                <div class="slider_box zoom_in">
                     <img class="border_radius w-100" src="./assets/images/png/slider2-img.png" alt="slider2 -img.png">
                     <div class="slider_box_modification">
                         <div class="d-flex align-items-center justify-content-between mb-3">
@@ -344,7 +346,7 @@
                             dignissi amet facilisi.</p>
                     </div>
                 </div>
-                <div class="slider_box">
+                <div class="slider_box zoom_in">
                     <img class="border_radius w-100" src="./assets/images/png/slider3-img.png" alt="slider3-img.png">
                     <div class="slider_box_modification">
                         <div class="d-flex align-items-center justify-content-between mb-3">
@@ -369,7 +371,7 @@
                             dignissi amet facilisi.</p>
                     </div>
                 </div>
-                <div class="slider_box">
+                <div class="slider_box zoom_in">
                     <img class="border_radius w-100" src="./assets/images/png/slider1-img.png" alt="slider1-img.png">
                     <div class="slider_box_modification">
                         <div class="d-flex align-items-center justify-content-between mb-3">
@@ -394,7 +396,7 @@
                             dignissi amet facilisi.</p>
                     </div>
                 </div>
-                <div class="slider_box">
+                <div class="slider_box zoom_in">
                     <img class="border_radius w-100" src="./assets/images/png/slider2-img.png" alt="slider2-img.png">
                     <div class="slider_box_modification">
                         <div class="d-flex align-items-center justify-content-between mb-3">
@@ -438,15 +440,15 @@
                     <div class="travel_club_box mt_30">
                         <h3 class="ff-sans fw-normal text36-2xl lh-42 color-white text-nowrap">Travel Club Metrics</h3>
                         <div class="d-flex flex-column justify-content-start">
-                            <div class="d-flex gap_100 justify-content-between">
+                            <div class="d-flex gap_100 justify_content_between">
                                 <p class="ff-pop fw-normal text20-s lh-30 color-white opacity_80">Max supply:</p>
                                 <p class="ff-pop fw-semibold text20-s lh-30 color-white">700 000 000</p>
                             </div>
-                            <div class="d-flex gap_90 justify-content-between">
+                            <div class="d-flex gap_90 justify_content_between">
                                 <p class="ff-pop fw-normal text20-s lh-30 color-white opacity_80">Total supply:</p>
                                 <p class="ff-pop fw-semibold text20-s lh-30 color-white">345 620 131</p>
                             </div>
-                            <div class="d-flex gap_30 justify-content-between">
+                            <div class="d-flex gap_30 justify_content_between">
                                 <p class="ff-pop fw-normal text20-s lh-30 color-white opacity_80">Circulating supply:
                                 </p>
                                 <p class="ff-pop fw-semibold text20-s lh-30 color-white">345 620 131</p>
@@ -533,10 +535,13 @@
         </div>
     </section>
     <!-- ==============meet-our-team============= -->
-    <section class="py_lg_54 _160 py_sm_50_100 py_50_80 position-relative">
-        <div class="position-absolute team_left_starPosition d-md-block d-none"><img src="./assets/images/png/team-left-start.png" alt="team-left-start."></div>
-        <div class="position-absolute team_right_starPosition d-lg-block d-none"><img class="w-100" src="./assets/images/png/team-right-ellip.png" alt="team-right-ellip"></div>
-        <div class="team_left_ellipPosition position-absolute d-lg-block d-none"><img class="w-100" src="./assets/images/png/team-left-ellip.png" alt="team-left-ellip."></div>
+    <section class="py_lg_54 _160 py_sm_50_100 py_50_80 position-relative overflow-x-hidden">
+        <div class="position-absolute team_left_starPosition d-md-block d-none"><img
+                src="./assets/images/png/team-left-start.png" alt="team-left-start."></div>
+        <div class="position-absolute team_right_starPosition d-lg-block d-none"><img class="w-100"
+                src="./assets/images/png/team-right-ellip.png" alt="team-right-ellip"></div>
+        <div class="team_left_ellipPosition position-absolute d-lg-block d-none"><img class="w-100"
+                src="./assets/images/png/team-left-ellip.png" alt="team-left-ellip."></div>
         <div class="container_1140">
             <h2 class="ff-sans fw-normal text48-3xl lh-56 color-white text-center pb_sm_50 pb_20">Meet Our Team</h2>
             <div id="slider_team" class="team_slider">
@@ -595,8 +600,10 @@
     </section>
     <!-- ===============FAQ=============== -->
     <section class="pb_lg_160 pb_md_70 pb_sm_50 pb_20 position-relative">
-        <div class="position-absolute team_right_ellipPosition end-0 d-lg-block d-none"><img src="./assets/images/png/team-right-ellip.png" alt="team-right-ellip"></div>
-        <div class="position-absolute stare_left_position bottom-0 d-lg-block d-none "><img src="./assets/images/png/team-left-start.png" alt="team-left-start"></div>
+        <div class="position-absolute team_right_ellipPosition end-0 d-lg-block d-none"><img
+                src="./assets/images/png/team-right-ellip.png" alt="team-right-ellip"></div>
+        <div class="position-absolute stare_left_position bottom-0 d-lg-block d-none "><img
+                src="./assets/images/png/team-left-start.png" alt="team-left-start"></div>
         <div class="container_1140">
             <h2 class="ff-sans fw-normal text48-3xl lh-sm-56 lh-40 color-white text-center pb_sm_50 pb_20 mb-0">
                 Frequently Asked Questions
@@ -695,19 +702,23 @@
                         <a href=""><img src="./assets/images/svg/travel-logo.svg" alt="travel-logo"></a>
                         <a href="" class="ff-racing fw-normal text28-lg lh-35 color-creamyWhite">The Travel Club</a>
                     </div>
-                    <p class="ff-pop fw-normal text16-ss lh-25 color-creamyWhite opacity_70 pt-lg-4 pt-md-3 pt-sm-2 pt-1 max_w_260">At congue consectetur
+                    <p
+                        class="ff-pop fw-normal text16-ss lh-25 color-creamyWhite opacity_70 pt-lg-4 pt-md-3 pt-sm-2 pt-1 max_w_260">
+                        At congue consectetur
                         pharetra morbi. Amet blandit vestibulum feugiat tempus urna laoreet</p>
                 </div>
                 <div class="col-lg-7">
                     <div class="row">
                         <div class="col-md-3 col-6">
                             <ul class="ps-0">
-                                <li class="ff-pop fw-normal text16-ss lh-25 color-creamyWhite mb_sm_18 mb_10">Company</li>
+                                <li class="ff-pop fw-normal text16-ss lh-25 color-creamyWhite mb_sm_18 mb_10">Company
+                                </li>
                                 <li class="mb-sm-3 mb-1"><a href=""
                                         class="ff-pop fw-normal text16-ss lh-25 color-creamyWhite opacity_80">About</a>
                                 </li>
                                 <li class="mb-sm-3 mb-1"><a href=""
-                                        class="ff-pop fw-normal text16-ss lh-25 color-creamyWhite opacity_80 text-nowrap">Privacy Policy</a>
+                                        class="ff-pop fw-normal text16-ss lh-25 color-creamyWhite opacity_80 text-nowrap">Privacy
+                                        Policy</a>
                                 </li>
                                 <li class="mb-sm-3 mb-1"><a href=""
                                         class="ff-pop fw-normal text16-ss lh-25 color-creamyWhite opacity_80">Partnership</a>
@@ -722,7 +733,8 @@
                         </div>
                         <div class="col-md-4 col-6">
                             <ul class="ps-0">
-                                <li class="ff-pop text16-ss fw-normal lh-25 color-creamyWhite mb_sm_18 mb_10">Contact Us</li>
+                                <li class="ff-pop text16-ss fw-normal lh-25 color-creamyWhite mb_sm_18 mb_10">Contact Us
+                                </li>
                                 <li class="mb-sm-3 mb-1"><a href=""
                                         class="ff-pop fw-normal text16-ss lh-25 color-creamyWhite opacity_80">4517
                                         Washington Ave. Manchester, Kentucky 39495</a></li>
@@ -733,7 +745,8 @@
                         </div>
                         <div class="col-md-2 col-6">
                             <ul class="ps-0 mb-0">
-                                <li class="ff-pop fw-normal text16-ss lh-25 color-creamyWhite mb_sm_18 mb_10">Quick Links</li>
+                                <li class="ff-pop fw-normal text16-ss lh-25 color-creamyWhite mb_sm_18 mb_10">Quick
+                                    Links</li>
                                 <li class="mb-sm-3 mb-1"><a href=""
                                         class="ff-pop fw-normal text16-ss lh-25 color-creamyWhite opacity_80">Home</a>
                                 </li>
@@ -753,7 +766,8 @@
                             </ul>
                         </div>
                         <div class="col-md-3 col-6">
-                            <p class="ff-pop fw-normal text16-ss lh-25 color-creamyWhite mb_sm_18 mb_10 text-nowrap">Social Share</p>
+                            <p class="ff-pop fw-normal text16-ss lh-25 color-creamyWhite mb_sm_18 mb_10 text-nowrap">
+                                Social Share</p>
                             <span class="d-flex gap_sm_32 gap_20">
                                 <a href="https://twitter.com/?lang=en" target="_blank">
                                     <svg class="zoom" width="28" height="24" viewBox="0 0 28 24" fill="none"
