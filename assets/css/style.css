@@ -323,18 +323,22 @@ input::placeholder {
 }
 
 .drop_option:hover {
-    background: var(--clr-white);
+    background: grey;
     color: var(--clr-black);
 }
 
 .dropdown_modification {
     background: var(--clr-navBlue);
-    width: 100px;
+    width: 170px;
     padding: 10px;
     border-radius: 10px;
 }
 
 #Flight {
+    display: none;
+}
+
+#car {
     display: none;
 }
 
@@ -349,6 +353,18 @@ input::placeholder {
 }
 
 #Flight:checked+.checkBox_label::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 7px;
+    width: 7px;
+    height: 15px;
+    border: solid var(--clr-white);
+    border-width: 0px 2px 2px 0px;
+    transform: rotate(50deg);
+}
+
+#car:checked+.checkBox_label::after {
     content: "";
     position: absolute;
     top: 2px;
@@ -543,13 +559,6 @@ input::placeholder {
     transition: all 300ms linear;
 }
 
-
-
-/* .slick-slide div {
-    display: flex;
-    justify-content: center;
-} */
-
 .slick-next:before {
     display: none;
 }
@@ -662,7 +671,7 @@ input::placeholder {
 .outline_none {
     outline: none;
     border: transparent;
-    color: white;
+    color: var(--clr-white);
     text-align: left;
 }
 
@@ -673,7 +682,6 @@ input::placeholder {
 }
 
 .team_box:hover {
-    box-shadow: 0px 4px 26px 0px var(--clr-shadowBlue);
     border: 1px solid var(--clr-sliderBTnBlue);
     border-radius: 13px;
 }
@@ -688,6 +696,10 @@ input::placeholder {
 #slider_team .slick-dots li.slick-active {
     background: var(--clr-sliderBTnBlue);
     width: 60px;
+}
+
+.slick-slide.slick-current.slick-active {
+    box-shadow: 0px 4px 26px 0px var(--clr-shadowBlue);
 }
 
 #slider_team .slick-dots li button:before {
