@@ -45,6 +45,7 @@ $('.team_slider').slick({
     dots: true,
     infinite: false,
     speed: 300,
+    autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
@@ -91,9 +92,61 @@ window.addEventListener("scroll", function () {
 topBtn.addEventListener("click", function () {
     document.documentElement.scrollTop = 0;
 });
+
+
+// ==============chng date and month
+
+const monthNames = ["Jan", "Feb", "Mar", "April", "May", "Jun", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const shownDate = document.querySelector("#data");
+const topArrow = document.getElementById("topArrow");
+const downArrow = document.getElementById("downArrow");
+
+const currentDate = new Date(2024, 5, 29);
+function updateData() {
+    const newDate = currentDate.getDate()
+    const month = currentDate.getMonth();
+    shownDate.innerHTML = `${monthNames[month]} ${newDate}`
+}
+updateData()
+
+topArrow.addEventListener("click", function () {
+    currentDate.setDate(currentDate.getDate() + 1);
+    updateData()
+})
+downArrow.addEventListener("click", function () {
+    currentDate.setDate(currentDate.getDate() - 1);
+    updateData()
+})
+
+
+const Monthname = ["Jan", "Feb", "Mar", "April", "May", "Jun", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const data = document.getElementById("Data");
+const Top = document.getElementById("Top");
+const Down = document.getElementById("Down");
+
+const date = new Date(2024, 5, 29);
+function mydata() {
+    const newdate = date.getDate()
+    const months = date.getMonth();
+    data.innerHTML = `${Monthname[months]} ${newdate}`
+}
+mydata()
+
+Top.addEventListener("click", function () {
+    date.setDate(date.getDate() + 1);
+    mydata()
+})
+Down.addEventListener("click", function () {
+    date.setDate(date.getDate() - 1);
+    mydata()
+})
+
 // preloder
 const Preload = document.getElementById("preload")
 setTimeout(() => {
     Preload.classList.add("d-none")
 }, "4000");
+
+
+
 
