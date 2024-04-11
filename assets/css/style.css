@@ -832,6 +832,9 @@ input::placeholder {
     opacity: 1;
 }
 
+.right_3 {
+    right: 3px;
+}
 
 @media (max-width:991.99px) {
     .overFlowHidden {
