@@ -999,7 +999,6 @@ input::placeholder {
         bottom: -4px;
     }
 
-
 }
 
 @media (min-width:768px) {
@@ -1139,10 +1138,7 @@ input::placeholder {
     }
 
     .checkkIn_box {
-        /* padding: 5px 10px; */
         max-width: 180px;
-        /* border: 1px solid var(--clr-borderGrey); */
-        /* border-radius: 8px; */
     }
 
     .goingTo_box {
