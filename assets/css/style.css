@@ -664,6 +664,7 @@ input::placeholder {
     transition: all 0.3s linear;
     border: 1px solid transparent;
     border-radius: 13px;
+    cursor: pointer;
 }
 
 .team_slider_contentBox {
@@ -811,6 +812,8 @@ input::placeholder {
     opacity: 0;
     transition: all 300ms linear;
     z-index: 1;
+    animation: 1s scrolltop infinite;
+    transition: all 0.4s ease-in-out
 }
 
 .topBtn.show {

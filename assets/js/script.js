@@ -44,6 +44,8 @@ $('.slider_responsiv').slick({
 $('.team_slider').slick({
     dots: true,
     infinite: false,
+    // centerMode: true,
+    // variableWidth: true,
     speed: 300,
     autoplay: true,
     slidesToShow: 3,
@@ -158,7 +160,9 @@ const Preload = document.getElementById("preload")
 setTimeout(() => {
     Preload.classList.add("d-none")
 }, "4000");
-
+AOS.init({
+    duration: 1200,
+})
 
 
 
