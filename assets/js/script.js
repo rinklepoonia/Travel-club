@@ -77,6 +77,17 @@ $('.team_slider').slick({
         // instead of a settings object
     ]
 });
+// ==============active-class-for hero travel box=======
+function toggleClass() {
+    const btnn = document.getElementById('btnn');
+    btnn.classList.toggle("active");
+}
+$(document).ready(function () {
+    $('.Travel_link').on('click', function () {
+        $('.Travel_link').removeClass('active');
+        $(this).addClass('active');
+    })
+});
 
 // back-to-top
 const topBtn = document.querySelector(".topBtn");
@@ -140,6 +151,7 @@ Down.addEventListener("click", function () {
     date.setDate(date.getDate() - 1);
     mydata()
 })
+
 
 // preloder
 const Preload = document.getElementById("preload")

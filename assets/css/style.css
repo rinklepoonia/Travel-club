@@ -133,6 +133,7 @@
     top: -22px;
 }
 
+
 /* ===================hero-section============= */
 .container_1140 {
     max-width: 1140px;
@@ -175,7 +176,7 @@
     cursor: pointer;
 }
 
-.travel_box_links:after {
+.travel_box_links::after {
     content: "";
     width: 0;
     height: 1px;
@@ -187,7 +188,7 @@
     transform: translateX(-50%);
 }
 
-.travel_box_links:hover::after {
+.travel_box_links.active::after {
     width: 100%;
 }
 
@@ -236,13 +237,13 @@
     gap: 60px;
 }
 
-.py_29 {
-    padding-top: 29px;
-    padding-bottom: 29px;
+.py_22 {
+    padding-top: 22px;
+    padding-bottom: 22px;
 }
 
 .btn_styling {
-    background: linear-gradient(90deg, #1219D2 0%, #4E52B1 100%);
+    background: linear-gradient(90deg, #1219D2 0%, #4E52B1 100%) padding-box;
     Padding: 14px 32px;
     border-radius: 60px;
     border: 2px solid transparent;
@@ -275,7 +276,8 @@
     min-height: 48px;
     padding: 12px 0 12px 10px;
     border-radius: 8px;
-    border: 1px solid var(--clr-borderGrey)
+    border: 1px solid var(--clr-borderGrey);
+    background: var(--clr-goingBoxBlue);
 }
 
 .checkkIn_box {
@@ -284,6 +286,7 @@
     border: 1px solid var(--clr-borderGrey);
     border-radius: 8px;
     cursor: pointer;
+    background: var(--clr-goingBoxBlue);
 }
 
 .hero_starsIcon_position {
@@ -314,8 +317,6 @@ input::placeholder {
     color: red;
 }
 
-
-
 #Flight {
     display: none;
 }
@@ -332,6 +333,7 @@ input::placeholder {
     display: inline-block;
     cursor: pointer;
     margin-right: 10px;
+    margin-bottom: -5px;
 }
 
 #Flight:checked+.checkBox_label::after {
@@ -719,7 +721,7 @@ input::placeholder {
 }
 
 .accordion-button:not(.collapsed) {
-    background: var(--clrbodyBlue);
+    background: transparent;
     color: var(--clr-white);
 
 }
@@ -734,7 +736,7 @@ input::placeholder {
 }
 
 .accordion-button {
-    background: var(--clrbodyBlue);
+    background: transparent;
     color: var(--clr-white);
     padding: 0;
     align-items: center;
@@ -826,11 +828,18 @@ input::placeholder {
     padding: 10px;
     border-radius: 10px;
     opacity: 0;
+    position: relative;
+    z-index: 1;
 }
 
-.Dropdown:hover .dropdown_modification {
+#btnn.active.dropdown_modification {
     opacity: 1;
 }
+
+.hover:hover {
+    background: gray;
+}
+
 
 .right_3 {
     right: 3px;

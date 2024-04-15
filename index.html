@@ -18,7 +18,7 @@
 </head>
 
 <body class=" bodyBlue_colr overflow-x-hidden">
-    <div id="preload"
+    <!-- <div id="preload"
         class="min-vh-100 w-100 d-flex align-items-center justify-content-center bg-black z-2 position-fixed start-0 top-0">
         <div class="d-flex flex-column justify-content-center align-items-center">
             <img class="mb-3 w-1 00" src="./assets/images/svg/travel-logo.svg" alt="travel-logo">
@@ -26,12 +26,12 @@
                 Travel Platform
             </p>
         </div>
-    </div>
+    </div> -->
     <header class="hero-bg-img position-relative z-1">
         <div class="position-absolute hero_starsIcon_position"><img src="./assets/images/svg/hero-stars-svg.svg"
                 alt="hero-stars-svg"></div>
         <div class="hero_linerGrident position-absolute"></div>
-        <nav class="color-navBlue py_29">
+        <nav class="color-navBlue py_22">
             <div class="container_1140">
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="d-flex align-items-center">
@@ -78,43 +78,49 @@
                 <div class="travel_box mx-auto mt_65">
                     <div
                         class="d-flex  justify-content-lg-center justify-content-between gap_20 overflow-x-auto no-scrollbar mb-3">
-                        <a href=""
-                            class="ff-pop fw-normal text16-ss lh-24 color-white   travel_box_links position-relative mb-0">Stays</a>
-                        <a href=""
-                            class="ff-pop fw-normal text16-ss lh-24 color-white  travel_box_links position-relative mb-0">Flights</a>
-                        <a href=""
-                            class="ff-pop fw-normal text16-ss lh-24 color-white  travel_box_links position-relative mb-0">Cars</a>
-                        <a href=""
-                            class="ff-pop fw-normal text16-ss lh-24 color-white  travel_box_links position-relative mb-0">packages</a>
-                        <a href=""
-                            class="ff-pop fw-normal text16-ss lh-24 color-white  travel_box_links position-relative mb-0 text-nowrap">things
-                            to do</a>
-                        <a href=""
-                            class="ff-pop fw-normal text16-ss lh-24 color-white  travel_box_links position-relative mb-0">Cruises</a>
+                        <p
+                            class="ff-pop fw-normal text16-ss lh-24 color-white travel_box_links position-relative Travel_link cursor-poniter mb-0 active">
+                            Stays</p>
+                        <p
+                            class="ff-pop fw-normal text16-ss lh-24 color-white  travel_box_links position-relative Travel_link cursor-poniter mb-0">
+                            Flights</p>
+                        <p
+                            class="ff-pop fw-normal text16-ss lh-24 color-white  travel_box_links position-relative Travel_link cursor-poniter mb-0">
+                            Cars</p>
+                        <p
+                            class="ff-pop fw-normal text16-ss lh-24 color-white  travel_box_links position-relative Travel_link cursor-poniter mb-0">
+                            packages</p>
+                        <p
+                            class="ff-pop fw-normal text16-ss lh-24 color-white  travel_box_links position-relative Travel_link cursor-poniter mb-0 text-nowrap">
+                            things
+                            to do</p>
+                        <p
+                            class="ff-pop fw-normal text16-ss lh-24 color-white  travel_box_links position-relative Travel_link cursor-poniter mb-0">
+                            Cruises</p>
                     </div>
                     <p class="ff-pop fw-normal text20-s lh-24 color-green mb-0 d-sm-none d-block">swip-up>>></p>
                     <div class="d-flex flex-wrap justify-content-end align-items-center gap-3 mb-3">
                         <p class="ff-pop fw-normal text14-xs lh-21 color-white mb-0">1 room, 2 travelers
                         </p>
-                        <div class="Dropdown position-relative">
-                            <a href="" class="h">
-                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                        <div class="Dropdown position-relative showDrop">
+                            <div onClick="toggleClass()">
+                                <svg class="cursor-poniter" width="10" height="6" viewBox="0 0 10 6" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1 0.5L5 4.5L9 0.5" stroke="white" />
                                 </svg>
-                            </a>
-                            <a href="" aria-label=""
+                            </div>
+                            <div id="btnn"
                                 class="d-flex flex-column gap-2 position-absolute dropdown_modification right_3">
                                 <span
-                                    class="color-white ff-pop fw-normal lh-25 drop_option text-nowrap positio n-relative">2room,
+                                    class="color-white ff-pop fw-normal lh-25 drop_option text-nowrap hover cursor-poniter">2room,
                                     3 travelers</span>
                                 <span
-                                    class="color-white ff-pop fw-normal lh-25 drop_option text-nowrap positio n-relative">2
+                                    class="color-white ff-pop fw-normal lh-25 drop_option text-nowrap hover cursor-poniter">2
                                     room, 5 travelers</span>
                                 <span
-                                    class="color-white ff-pop fw-normal lh-25 drop_option text-nowrap position -relative">1
+                                    class="color-white ff-pop fw-normal lh-25 drop_option text-nowrap hover cursor-poniter">1
                                     room, 5 travelers</span>
-                            </a>
+                            </div>
                         </div>
                     </div>
                     <div class="d-flex flex_wrap gap_20">
@@ -138,7 +144,8 @@
                                             fill="white" />
                                     </svg>
                                     <div class="blank">
-                                        <p class="ff-pop fw-small text10-xxs lh-15 color-white mb-0">Check-in</p>
+                                        <p class="ff-pop fw-small text10-xxs lh-15 color-white mb-0">Check-in
+                                        </p>
                                         <p id="data"
                                             class="ff-pop fw-small text16-ss lh-24 color-white mb-0 text-nowrap">
                                             Jun 29
@@ -161,7 +168,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="d-flex align-items-center gap_12 checkkIn_box">
+                        <div class="d-flex align-items-center gap_12 checkkIn_box z_index">
                             <div class="d-flex justify-content-between gap_60 w-100">
                                 <div class="d-flex gap_12 align-items-center">
                                     <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
@@ -171,8 +178,11 @@
                                             fill="white" />
                                     </svg>
                                     <div class="blank">
-                                        <p class="ff-pop fw-small text10-xxs lh-15 color-white mb-0">Check-in</p>
-                                        <p id="Data" class="ff-pop fw-small text16-ss lh-24 color-white mb-0 text-nowrap">Jun 29
+                                        <p class="ff-pop fw-small text10-xxs lh-15 color-white mb-0">Check-in
+                                        </p>
+                                        <p id="Data"
+                                            class="ff-pop fw-small text16-ss lh-24 color-white mb-0 text-nowrap">
+                                            Jun 29
                                         </p>
                                     </div>
                                 </div>
@@ -198,7 +208,7 @@
                         <div class="check_box_modification align-items-center d-flex">
                             <input type="radio" id="Flight">
                             <label for="Flight"
-                                class="ff-pop fw-small text16-ss lh-24 color-white mb-0 position-relative checkBox_label">Add
+                                class="ff-pop fw-small text16-ss lh-24 color-white  position-relative checkBox_label">Add
                                 a
                                 Flight</label>
                         </div>
