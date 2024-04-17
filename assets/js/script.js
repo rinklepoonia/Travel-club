@@ -43,9 +43,9 @@ $('.slider_responsiv').slick({
 });
 $('.team_slider').slick({
     dots: true,
-    infinite: false,
-    // centerMode: true,
-    // variableWidth: true,
+    infinite: true,
+    centerMode: true,
+    variableWidth: true,
     speed: 300,
     autoplay: true,
     slidesToShow: 3,
