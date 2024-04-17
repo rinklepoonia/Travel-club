@@ -832,11 +832,13 @@ input::placeholder {
     border-radius: 10px;
     opacity: 0;
     position: relative;
-    z-index: 1;
+    z-index: -1;
 }
 
 #btnn.active.dropdown_modification {
     opacity: 1;
+    z-index: 1;
+    position: relative;
 }
 
 .hover:hover {
