@@ -159,7 +159,7 @@ Down.addEventListener("click", function () {
 const Preload = document.getElementById("preload")
 setTimeout(() => {
     Preload.classList.add("d-none")
-}, "4000");
+}, "2000");
 AOS.init({
     duration: 1200,
 })
